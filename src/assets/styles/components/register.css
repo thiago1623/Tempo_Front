@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700;800&display=swap');
+
+* {
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'sans-serif' !important
+}
+
+::-webkit-scrollbar {display: none;}
+
+
+.registrar{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    margin: auto;
+    max-width: 100%;
+}
+
+.image-container-register {
+    background-image: url("../../../styles/login-image.png");
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    min-height: 100vh;
+}
+
+.registrar .inner{
+    border-radius: 15px;
+    box-shadow: 20px 30px 30px -6px black;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    line-height: 100%;
+    margin-top: 40vh;
+    background-color: rgba(0,0,0, 0.4);
+}
+
+.rcont {
+    /* padding: 10px; */
+    margin: auto;
+    /* margin-top: 100px; */
+    max-width: 50%;
+}
+
+ .rcont h2{
+     float: center;
+    font-size: 30px;
+    margin: 15px;
+    padding: 14px 12px;
+    color: white;
+}
+
+.registrar span{
+    padding-right: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+body .inner img {
+    max-width: 100px;
+    height: auto;
+}
+
+.form_reg{
+    padding-bottom: 36px;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    line-height: 100%;
+}
+
+
+.form_reg li{
+    text-align: -webkit-match-parent;
+    margin-bottom: 36px;
+    width: 100%;
+}
+
+.form_reg input{
+    font-size: 18px;
+    line-height: 180%;
+    padding: 10px;
+    margin-top: 15px;
+    background: 0 0;
+    border: 0;
+    height: 100%;
+    width: 100%;
+    border-bottom: 1px solid white;
+    color: #b8e3f4;
+}
+
+.registrar .inner li{
+    font-size: 14px;
+}
+
+
+.btn-signup{
+    padding: 14px 12px;
+    box-shadow: rgba(0,0,0, 0.8);
+    border: 3px solid;
+    background: none;
+    border-radius: 2px;
+    margin-top: 10px;
+    color: white;
+    cursor:pointer;
+}
+
+.btn-signup:hover{
+    background-color: white;
+    color:black;
+}

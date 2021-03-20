@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700;800&display=swap');
+
+* {
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'sans-serif' !important
+}
+
+::-webkit-scrollbar {display: none;}
+
+
+.footer-login {
+    width: 100%;
+    background: rgb(0, 0, 0, 0.3);
+    color:white;
+    position: fixed;
+    bottom: 0;
+}
+
+.navbar-login {
+    width: 100%;
+    background: rgb(0, 0, 0, 0.3);
+    color:white;
+    position: fixed;
+}
+
+.container-login-tempo {
+    border-radius: 15px;
+    width: 50%;
+    min-height: 50vh;
+    margin:auto;
+    position: fixed;
+    top:25%;
+    left:25%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    box-shadow: 20px 30px 30px -6px black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:white;
+    flex-direction: column;
+}
+
+.image-container-login {
+    background-image: url("./login-image.png");
+    min-height: 100vh;
+    height: 500px; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.inputs-tempo-login {
+    width: 100%;
+    max-width: 300px;
+    font-size: 16px;
+    height: 40px;
+    margin: 15px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    color:white;
+    border: none;
+    padding: 10px;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+}
+
+.inputs-tempo-login input:focus {
+    outline: none;
+    color:white;
+    border-bottom: 1px solid white;
+}
+
+.boton-login-tempo {
+    padding: 14px 42px;
+    box-shadow: rgba(0,0,0,0.8);
+    border: 3px solid white;
+    background:none;
+    border-radius: 4px;
+    margin-top: 10px;
+    color:white;
+}
+
+.boton-login-tempo:hover {
+    background: white;
+    color:black;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+    transition-delay: 0.3s;
+    border-radius: none;
+}
+
+.label-video {
+    color: white;
+    position: absolute; 
+    cursor: text;
+    left: 0;
+}
+
